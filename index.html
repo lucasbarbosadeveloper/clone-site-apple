@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Clone Apple</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="https://cdn-icons-png.flaticon.com/512/0/747.png" alt="logo-apple">
+        </div>
+
+        <div class="header__desktop menu">
+            <nav class="nav__desktop">
+                <ul>
+                    <li class="dropdown" id="loja">
+                        <button class="dropdown-toggle" type="button" id="dropdownLoja">Loja</button>
+                        <div class="dropdown-menu droploja show" aria-labelledby="dropdownLoja">
+                            <table class="table">
+                                <tr>
+                                    <th class="table__title">Comprar</th>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-head">Comprar os lançamentos</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-head">Mac</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-head">iPad</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-head">iPhone</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-head">Apple Watch</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-head">Acessórios</td>
+                                </tr>
+                            </table>
+                
+                            <table class="table2">
+                                <tr>
+                                    <th class="table__title">Links rápidos</th>
+                                    <th class="table__title">Comprar nas lojas especiais</th>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-basic">Encontre uma loja</td>
+                                    <td class="table__data-basic">Educação</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-basic">Status do pedido</td>
+                                    <td class="table__data-basic">Negócios</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-basic">Financiamento</td>
+                                </tr>
+                            </table>
+                
+                        </div>
+                    </li>
+
+                    <li class="dropdown" id="mac">
+                        <button class="dropdown-toggle" type="button" id="dropdownMac">Mac</button>
+                        <div class="dropdown-menu dropmac show" aria-labelledby="dropdownMac">
+                            <table class="table">
+                                <tr>
+                                    <th class="table__title">Explorar Mac</th>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="table__data-head">Explorar todos os modelos de Mac</td>
+                                </tr>
+                                <tr>
+                                    <td class="table__data-head">MacBook Air</td>
+                                </tr>
+                                <tr>
+                                    <td class="table__data-head">MacBook Pro</td>
+                                </tr>
+                                <tr>
+                                    <td class="table__data-head">iMac</td>
+                                </tr>
+                                <tr>
+                                    <td class="table__data-head">Mac mini</td>
+                                </tr>
+                                <tr>
+                                    <td class="table__data-head">Mac Studio</td>
+                                </tr>
+                                <tr>
+                                    <td class="table__data-head">Mac Pro</td>
+                                </tr>
+                                <tr>
+                                    <td class="table__data-head">Monitores</td>
+                                </tr>
+                                <tr>
+                                    <td class="table__data-head">Comparar Mac</td>
+                                </tr>
+                                <tr>
+                                    <td class="table__data-head">O Mac resolve</td>
+                                </tr>
+                            </table>
+                
+                            <table class="table2">
+                                <tr>
+                                    <th class="table__title">Comprar Mac</th>
+                                    <th class="table__title">Mais para o Mac</th>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-basic">Comprar Mac</td>
+                                    <td class="table__data-basic">Suporte para Mac</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-basic">Acessórios para o Mac</td>
+                                    <td class="table__data-basic">Produtos AppleCare</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-basic">Financiamento</td>
+                                    <td class="table__data-basic">macOS Sonoma</td>
+                                </tr>
+                
+                                <tr>
+                                    <td></td>
+                                    <td class="table__data-basic">Final Cut Pro</td>
+                                </tr>
+                
+                                <tr>
+                                    <td></td>
+                                    <td class="table__data-basic">Logic Pro</td>
+                                </tr>
+                
+                                <tr>
+                                    <td></td>
+                                    <td class="table__data-basic">Continuidade</td>
+                                </tr>
+                
+                                <tr>
+                                    <td></td>
+                                    <td class="table__data-basic">iCloud+</td>
+                                </tr>
+                
+                                <tr>
+                                    <td></td>
+                                    <td class="table__data-basic">Mac nos negócios</td>
+                                </tr>
+                
+                                <tr>
+                                    <td></td>
+                                    <td class="table__data-basic">Educação</td>
+                                </tr>
+                            </table>
+                
+                        </div>
+                    </li>
+
+                    <li class="dropdown" id="ipad">
+                        <button class="dropdown-toggle" type="button" id="dropdownIpad">iPad</button>
+                        <div class="dropdown-menu dropipad show" aria-labelledby="dropdownIpad">
+                            <table class="table">
+                                <tr>
+                                    <th class="table__title">Explorar iPad</th>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="table__data-head">Explorar todos os modelos de iPad</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td class="table__data-head">iPad Pro</td>
+                                </tr>
+                                <tr>
+                                    <td class="table__data-head">iPad Air</td>
+                                </tr>
+                                <tr>
+                                    <td class="table__data-head">iPad</td>
+                                </tr>
+                                <tr>
+                                    <td class="table__data-head">iPad mini</td>
+                                </tr>
+                                <tr>
+                                    <td class="table__data-head">Apple Pencil</td>
+                                </tr>
+                                <tr>
+                                    <td class="table__data-head">Teclados</td>
+                                </tr>
+                                <tr>
+                                    <td class="table__data-head">Comparar iPad</td>
+                                </tr>
+                                <tr>
+                                    <td class="table__data-head">Por que iPad</td>
+                                </tr>
+                            </table>
+                
+                            <table class="table2">
+                                <tr>
+                                    <th class="table__title">Comprar iPad</th>
+                                    <th class="table__title">Mais para o iPad</th>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-basic">Comprar iPad</td>
+                                    <td class="table__data-basic">Suporte para iPad</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-basic">Acessórios para o iPad</td>
+                                    <td class="table__data-basic">Produtos AppleCare</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-basic">Financiamento</td>
+                                    <td class="table__data-basic">iPadOS 17</td>
+                                </tr>
+                
+                                <tr>
+                                    <td></td>
+                                    <td class="table__data-basic">Final Cut Pro para iPad</td>
+                                </tr>
+                
+                                <tr>
+                                    <td></td>
+                                    <td class="table__data-basic">Logic Pro para iPad</td>
+                                </tr>
+                
+                                <tr>
+                                    <td></td>
+                                    <td class="table__data-basic">iCloud+</td>
+                                </tr>
+                
+                                <tr>
+                                    <td></td>
+                                    <td class="table__data-basic">Educação</td>
+                                </tr>
+                            </table>
+                
+                        </div>
+                    </li>
+
+                    <li class="dropdown" id="iphone">
+                        <button class="dropdown-toggle" type="button" id="dropdownIphone">iPhone</button>
+                        <div class="dropdown-menu dropiphone show" aria-labelledby="dropdownIphone">
+                            <table class="table">
+                                <tr>
+                                    <th class="table__title">Explorar iPhone</th>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="table__data-head">Explorar todos os modelos de iPhone</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td class="table__data-head">iPhone 15 Pro</td>
+                                </tr>
+                                <tr>
+                                    <td class="table__data-head">iPhone 15</td>
+                                </tr>
+                                <tr>
+                                    <td class="table__data-head">iPhone 14</td>
+                                </tr>
+                                <tr>
+                                    <td class="table__data-head">iPhone 13</td>
+                                </tr>
+                                <tr>
+                                    <td class="table__data-head">iPhone SE</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="table__data-head">Comparar iPhone</td>
+                                </tr>
+                                <tr>
+                                    <td class="table__data-head">Mudar do Android</td>
+                                </tr>
+                            </table>
+                
+                            <table class="table2">
+                                <tr>
+                                    <th class="table__title">Comprar iPhone</th>
+                                    <th class="table__title">Mais para o iPhone</th>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-basic">Suporte para iPhone</td>
+                                    <td class="table__data-basic">Comprar iPhone</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-basic">Acessórios para o iPhone</td>
+                                    <td class="table__data-basic">IOS 17</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-basic">Financiamento</td>
+                                    <td class="table__data-basic">Privacidade no iPhone</td>
+                                </tr>
+                
+                                <tr>
+                                    <td></td>
+                                    <td class="table__data-basic">iCloud+</td>
+                                </tr>
+                
+                                <tr>
+                                    <td></td>
+                                    <td class="table__data-basic">Carteira, Apple Pay</td>
+                                </tr>
+                
+                                <tr>
+                                    <td></td>
+                                    <td class="table__data-basic">Siri</td>
+                                </tr>
+                            </table>
+                
+                        </div>
+                    </li>
+
+                    <li class="dropdown" id="watch">
+                        <button class="dropdown-toggle" type="button" id="dropdownWatch">Watch</button>
+                        <div class="dropdown-menu dropwatch show" aria-labelledby="dropdownWatch">
+                            <table class="table">
+                                <tr>
+                                    <th class="table__title">Explorar Watch</th>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="table__data-head">Explorar todos os modelos de Apple Watch</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td class="table__data-head">Apple Watch Series 9</td>
+                                </tr>
+                                <tr>
+                                    <td class="table__data-head">Apple Watch Ultra 2</td>
+                                </tr>
+                                <tr>
+                                    <td class="table__data-head">Apple Watch SE</td>
+                                </tr>
+                                <tr>
+                                    <td class="table__data-head">Apple Watch Nike</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="table__data-head">Comparar Apple Watch</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-head">Por que Apple Watch</td>
+                                </tr>
+                            </table>
+                
+                            <table class="table2">
+                                <tr>
+                                    <th class="table__title">Comprar Apple Watch</th>
+                                    <th class="table__title">Mais para o Apple Watch</th>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-basic">Comprar Apple Watch</td>
+                                    <td class="table__data-basic">Suporte para Apple Watch</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-basic">Pulseiras para Apple Watch</td>
+                                    <td class="table__data-basic">watchOS 10</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-basic">Acessórios para Apple Watch</td>
+                                    <td class="table__data-basic">Apple Fitness+</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-basic">Financiamento</td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                
+                        </div>
+                    </li>
+
+                    <li class="dropdown" id="airpods">
+                        <button class="dropdown-toggle" type="button" id="dropdownAirPods">AirPods</button>
+                        <div class="dropdown-menu dropairpods show" aria-labelledby="dropdownAirPods">
+                            <table class="table">
+                                <tr>
+                                    <th class="table__title">Explorar AirPods</th>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="table__data-head">Explorar todos os modelos de AirPods</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td class="table__data-head">AirPods Pro 2ª geração</td>
+                                </tr>
+                                <tr>
+                                    <td class="table__data-head">AirPods 2ª geração</td>
+                                </tr>
+                                <tr>
+                                    <td class="table__data-head">AirPods 3ª geração</td>
+                                </tr>
+                                <tr>
+                                    <td class="table__data-head">AirPods Max</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="table__data-head">Comparar AirPods</td>
+                                </tr>
+                            </table>
+                
+                            <table class="table2">
+                                <tr>
+                                    <th class="table__title">Comprar AirPods</th>
+                                    <th class="table__title">Mais para o AirPods</th>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-basic">Comprar AirPods</td>
+                                    <td class="table__data-basic">Suporte para AirPods</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-basic">Acessórios para AirPods</td>
+                                    <td class="table__data-basic">Apple Music</td>
+                                </tr>
+                            </table>
+                
+                        </div>
+                    </li>
+
+                    <li class="dropdown" id="tv">
+                        <button class="dropdown-toggle" type="button" id="dropdownTv">TV e Casa</button>
+                        <div class="dropdown-menu droptv show" aria-labelledby="dropdownTv">
+                            <table class="table">
+                                <tr>
+                                    <th class="table__title">Explorar TV e Casa</th>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="table__data-head">Explorar TV e Casa</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td class="table__data-head">Apple TV 4K</td>
+                                </tr>
+                            </table>
+                
+                            <table class="table2">
+                                <tr>
+                                    <th class="table__title">Comprar TV e Casa</th>
+                                    <th class="table__title">Mais para o TV e Casa</th>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-basic">Comprar TV e Casa</td>
+                                    <td class="table__data-basic">Suporte para TV e Casa</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-basic">Comprar Siri Remote</td>
+                                    <td class="table__data-basic">Produtos AppleCare</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="table__data-basic">Acessórios para TV e Casa</td>
+                                    <td class="table__data-basic">App Apple TV</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td></td>
+                                    <td class="table__data-basic">Apple TV+</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td></td>
+                                    <td class="table__data-basic">App Casa</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td></td>
+                                    <td class="table__data-basic">Apple Mussic</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td></td>
+                                    <td class="table__data-basic">Siri</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td></td>
+                                    <td class="table__data-basic">AirPlay</td>
+                                </tr>
+                            </table>
+                
+                        </div>
+                    </li>
+
+                    <li class="dropdown" id="entret">
+                        <button class="dropdown-toggle" type="button" id="dropdownEntret">Entreterimento</button>
+                        <div class="dropdown-menu dropentret show" aria-labelledby="dropdownEntret">
+                            <table class="table">
+                                <tr>
+                                    <th class="table__title">Explorar Entreterimento</th>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="table__data-head">Explorar Entreterimento</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td class="table__data-head">Apple One</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-head">Apple TV+</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-head">Apple Music</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-head">Apple Arcade</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-head">Apple Fitness+</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-head">Apple Podcasts</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-head">Apple Books</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-head">Apple Store</td>
+                                </tr>
+                            </table>
+                
+                            <table class="table2">
+                                <tr>
+                                    <th class="table__title">Suporte</th>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-basic">Suporte para Apple TV+</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-basic">Suportepara Apple Music</td>
+                                </tr>
+                            </table>
+                
+                        </div>
+                    </li>
+
+                    <li class="dropdown" id="acessor">
+                        <button class="dropdown-toggle" type="button" id="dropdownAcessor">Acessórios</button>
+                        <div class="dropdown-menu dropacessor show" aria-labelledby="dropdownAcessor">
+                            <table class="table">
+                                <tr>
+                                    <th class="table__title">Comprar acessórios</th>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="table__data-head">Ver todos os acessórios</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td class="table__data-head">Mac</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-head">iPad</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-head">iPhone</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-head">Apple Watch</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-head">AirPods</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-head">TV e Casa</td>
+                                </tr>
+                            </table>
+                
+                            <table class="table2">
+                                <tr>
+                                    <th class="table__title">Explorar acessórios</th>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-basic">Criados pela Apple</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-basic">Beats by Dr. Dre</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-basic">AirTag</td>
+                                </tr>
+                            </table>
+                
+                        </div>
+                    </li>
+
+                    <li class="dropdown" id="suporte">
+                        <button class="dropdown-toggle" type="button" id="dropdownSuporte">Suporte</button>
+                        <div class="dropdown-menu dropsuporte show" aria-labelledby="dropdownSuporte">
+                            <table class="table">
+                                <tr>
+                                    <th class="table__title">Explorar suporte</th>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="table__data-head">iPhone</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td class="table__data-head">Mac</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-head">iPad</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-head">Apple Watch</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-head">AirPods</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-head">Música</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-head">TV</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-head">Explorar suporte</td>
+                                </tr>
+                            </table>
+                
+                            <table class="table2">
+                                <tr>
+                                    <th class="table__title">Ajuda</th>
+                                    <th class="table__title">Tópicos úteis</th>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-basic">Comunidade</td>
+                                    <td class="table__data-basic">Comprar produtos AppleCare</td>
+                                </tr>
+                
+                                <tr>
+                                    <td class="table__data-basic">Verificar cobertura</td>
+                                    <td class="table__data-basic">Apple ID e senha</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="table__data-basic">Reparos</td>
+                                    <td class="table__data-basic">Cobrança e assinaturas</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="table__data-basic">Fale com a gente</td>
+                                    <td class="table__data-basic">Buscar</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td></td>
+                                    <td class="table__data-basic">Acessibilidade</td>
+                                </tr>
+                            </table>
+                
+                        </div>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header__mobile menu">
+            <nav class="nav__mobile">
+                <img class="button__close" src="https://cdn.icon-icons.com/icons2/1993/PNG/512/cancel_close_delete_exit_logout_remove_x_icon_123217.png" alt="botao-fechar">
+                <ul>
+                    <li>Loja</li>
+                    <li>Mac</li>
+                    <li>iPad</li>
+                    <li>iPhone</li>
+                    <li>Apple Watch</li>
+                    <li>AirPods</li>
+                    <li>TV e Casa</li>
+                    <li>Entreterimento</li>
+                    <li>Acessórios</li>
+                    <li>Suporte</li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header__tools">
+            <img class="button__search" src="https://cdn.icon-icons.com/icons2/1129/PNG/512/searchmagnifierinterfacesymbol_79894.png" alt="icone-pesquisar">
+            <img class="button__trolley" src="https://cdn.icon-icons.com/icons2/1580/PNG/512/2849808-interface-multimedia-pack-package-shop_107971.png" alt="icone-carrinho">
+
+            <img class="button__menu" src="https://cdn.icon-icons.com/icons2/2596/PNG/512/hamburger_button_menu_icon_155296.png" alt="menu-hamburger">
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <h1>Loja. O melhor jeito de comprar o que vicê ama.</h1>
+            </div>
+
+            <div>
+                <div>
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-chat-specialist-icon-202309_AV2?wid=70&hei=70&fmt=jpeg&qlt=90&.v=1701194050335" alt="imagem-atendente">
+                </div>
+
+                <div>
+                    <img src="https://cdn-icons-png.flaticon.com/512/2175/2175370.png" alt="icone-apple">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>

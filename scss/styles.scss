@@ -283,7 +283,7 @@ body{
 
             .carroussel2__div{
                 margin: 1rem 0;
-                min-width: 18rem;
+                min-width: 17rem;
                 height: 30rem;
                 border-radius: 1rem;
                 padding: 2rem;
@@ -359,17 +359,128 @@ body{
                 height: 4rem;
                 color: #fff;
                 font-size: 2rem;
-                cursor: pointer;
-                
+                cursor: pointer;  
             }
         }
-
     }
+
+    .main__sec3{
+        padding-top: 2rem;
+
+        h2{
+            font-size: 1.7rem;
+            font-weight: 600;
+            line-height: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .sec3__carroussel3{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 1rem;
+            width: 100%;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            scroll-behavior: smooth;
+
+            &::-webkit-scrollbar{
+                width: 0px;
+            }
+
+            .carroussel3__div{
+                margin: 1rem 0;
+                min-width: 17rem;
+                height: 30rem;
+                border-radius: 1rem;
+                padding: 2rem;
+                text-decoration: none;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.082);
+                color: #000;
+                text-shadow: 0px 0px 10px white;
+
+                p:nth-child(1){
+                    font-size: .8rem;
+                    padding-bottom: 1rem;
+                }
+
+                p:nth-child(2){
+                    font-size: 1.2rem;
+                    font-weight: 500;
+                }
+
+                p:nth-child(3){
+                    font-size: 1.2rem;
+                }
+
+            }
+
+            .carroussel3__div:nth-child(1){
+                background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-50-specialist-help-202309?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1701194078821");
+            }
+
+            .carroussel3__div:nth-child(2){
+                background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-50-TAA-202310?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1697149577145");
+            }
+
+            .div__double{
+                min-width: 17rem;
+                height: 30rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap: 1rem;
+
+                .carroussel3__double{
+                    font-weight: 500;
+                    font-size: 1.3rem;
+                    height: 100%;
+                    padding: 3rem 1rem;
+                    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.082);
+                    text-decoration: none;
+                    border-radius: 1rem;
+                    color: #000;
+
+                    background-position: center center;
+                    background-size: cover;
+                }
+
+                .carroussel3__double:nth-child(1){
+                    background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-25-apps-202108?wid=480&hei=240&fmt=p-jpg&qlt=95&.v=1626223748000");
+                }
+
+                .carroussel3__double:nth-child(2){
+                    background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-25-genius-202108?wid=960&hei=480&fmt=p-jpg&qlt=95&.v=1626384443000");
+                }
+    
+            }
+
+            .btn__navigation-carr3{
+                position: absolute;
+                align-self: center;
+                border: none;
+                background-color: #6e6e7383;
+                border-radius: 50%;
+                width: 4rem;
+                height: 4rem;
+                color: #fff;
+                font-size: 2rem;
+                cursor: pointer;  
+            }
+
+        }
+    }
+
+    
 }
 
 
 
 // responsividade
+
 @media (min-width: 768px) {
     .header{
         .header__desktop{
@@ -414,6 +525,20 @@ body{
         .main__sec2{
             .sec2__carroussel2{
                 .carroussel2__div{
+                    min-width: 22rem;
+                    height: 27rem;
+                }
+            }
+        }
+
+        .main__sec3{
+            .sec3__carroussel3{
+                .carroussel3__div{
+                    min-width: 22rem;
+                    height: 27rem;
+                }
+
+                .div__double{
                     min-width: 22rem;
                     height: 27rem;
                 }
@@ -468,6 +593,12 @@ body{
     .main{
         .main__carroussel{
             position: relative;
+        }
+
+        .main__sec3{
+            .btn__navigation-carr3{
+                display: none;
+            }
         }
     }
 }

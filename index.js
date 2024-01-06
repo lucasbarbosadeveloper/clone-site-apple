@@ -34,11 +34,11 @@ const btn__after = document.querySelector('.btn__after')
 
 
 btn__back.addEventListener('click', (ev) => {
-    main__carroussel.scrollBy(-200,0)
+    main__carroussel.scrollBy(-250,0)
 })
 
 btn__after.addEventListener('click', (ev) => {
-    main__carroussel.scrollBy(200, 0)
+    main__carroussel.scrollBy(250, 0)
     
 })
 
@@ -49,10 +49,23 @@ const btn__after2 = document.querySelector('.btn__after2')
 
 
 btn__back2.addEventListener('click', (ev) => {
-    sec2__carroussel2.scrollBy(-305,0)
+    sec2__carroussel2.scrollBy(-280,0)
 })
 
 btn__after2.addEventListener('click', (ev) => {
-    sec2__carroussel2.scrollBy(305, 0)
-    
+    sec2__carroussel2.scrollBy(280, 0)  
+})
+
+// navegação do carroussel 3
+const sec3__carroussel3 = document.querySelector('.sec3__carroussel3')
+const btn__back3 = document.querySelector('.btn__back3')
+const btn__after3 = document.querySelector('.btn__after3')
+
+
+btn__back3.addEventListener('click', (ev) => {
+    sec3__carroussel3.scrollBy(-280,0)
+})
+
+btn__after3.addEventListener('click', (ev) => {
+    sec3__carroussel3.scrollBy(280, 0)  
 })

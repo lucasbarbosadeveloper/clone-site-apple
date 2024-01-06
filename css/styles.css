@@ -7,6 +7,8 @@
 
 body {
   width: 100%;
+  max-width: 1440px;
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -153,11 +155,55 @@ body {
   width: 2rem;
 }
 .main .main__sec1 .sec1__support .support .infos p, .main .main__sec1 .sec1__support .support .infos a {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 .main .main__sec1 .sec1__support .support .infos a {
   text-decoration: none;
   color: blue;
+}
+.main .main__carroussel {
+  display: flex;
+  margin: 3rem 0;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+}
+.main .main__carroussel::-webkit-scrollbar {
+  width: 0px;
+}
+.main .main__carroussel .btn__navigation-carr1 {
+  position: absolute;
+  margin-top: 2rem;
+  border: none;
+  background-color: rgba(110, 110, 115, 0.5137254902);
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.main .main__carroussel .btn__navigation-carr1 i {
+  color: #fff;
+}
+.main .main__carroussel .btn__back {
+  left: 1rem;
+}
+.main .main__carroussel .btn__after {
+  right: 1rem;
+}
+.main .main__carroussel .carroussel__div {
+  margin: 0 1rem;
+}
+.main .main__carroussel .carroussel__div .carroussel__a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+}
+.main .main__carroussel .carroussel__div .carroussel__a img {
+  width: 6rem;
+  padding-bottom: 1rem;
 }
 
 @media (min-width: 768px) {
@@ -186,6 +232,34 @@ body {
   }
   .main .main__sec1 .sec1__support .support .infos p, .main .main__sec1 .sec1__support .support .infos a {
     font-size: 0.7rem;
+  }
+}
+@media (min-width: 1024px) {
+  .main .main__sec1 .sec1__introduction h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .main .main__sec1 .sec1__support .support {
+    width: 18rem;
+  }
+  .main .main__sec1 .sec1__support .support img {
+    width: 2rem;
+  }
+  .main .main__sec1 .sec1__support .support .infos p, .main .main__sec1 .sec1__support .support .infos a {
+    font-size: 1rem;
+  }
+  .main .main__carroussel .carroussel__div .carroussel__a img {
+    width: 8rem;
+  }
+}
+@media (min-width: 1145px) {
+  .main .main__carroussel {
+    position: relative;
+  }
+}
+@media (min-width: 1250px) {
+  .main .main__carroussel .btn__navigation-carr1 {
+    display: none;
   }
 }
 

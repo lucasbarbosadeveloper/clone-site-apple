@@ -26,3 +26,18 @@ dropdowns.forEach((dropdown) => {
         document.querySelector(`.drop${dropdown.id}`).classList.add('show')
     })
 })
+
+// navegação do carroussel 1
+const main__carroussel = document.querySelector('.main__carroussel')
+const btn__back = document.querySelector('.btn__back')
+const btn__after = document.querySelector('.btn__after')
+
+
+btn__back.addEventListener('click', (ev) => {
+    main__carroussel.scrollBy(-200,0)
+})
+
+btn__after.addEventListener('click', (ev) => {
+    main__carroussel.scrollBy(200, 0)
+    
+})

@@ -15,8 +15,16 @@ body {
   background-color: #F5F5F7;
 }
 
-.estado {
-  display: flex !important;
+.emphasis {
+  color: #6E6E73;
+}
+
+.btn__back {
+  left: 1rem;
+}
+
+.btn__after {
+  right: 1rem;
 }
 
 .header {
@@ -136,9 +144,6 @@ body {
   font-size: 2rem;
   line-height: 2.2rem;
 }
-.main .main__sec1 .sec1__introduction h1 .emphasis {
-  color: #6E6E73;
-}
 .main .main__sec1 .sec1__support {
   display: flex;
   align-items: start;
@@ -174,6 +179,7 @@ body {
 }
 .main .main__carroussel .btn__navigation-carr1 {
   position: absolute;
+  align-self: center;
   margin-top: 2rem;
   border: none;
   background-color: rgba(110, 110, 115, 0.5137254902);
@@ -184,12 +190,6 @@ body {
 }
 .main .main__carroussel .btn__navigation-carr1 i {
   color: #fff;
-}
-.main .main__carroussel .btn__back {
-  left: 1rem;
-}
-.main .main__carroussel .btn__after {
-  right: 1rem;
 }
 .main .main__carroussel .carroussel__div {
   margin: 0 1rem;
@@ -204,6 +204,98 @@ body {
 .main .main__carroussel .carroussel__div .carroussel__a img {
   width: 6rem;
   padding-bottom: 1rem;
+}
+.main .main__sec2 {
+  padding-top: 2rem;
+}
+.main .main__sec2 h2 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+}
+.main .main__sec2 .sec2__carroussel2 {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+}
+.main .main__sec2 .sec2__carroussel2::-webkit-scrollbar {
+  width: 0px;
+}
+.main .main__sec2 .sec2__carroussel2 .card__black {
+  color: #fff;
+}
+.main .main__sec2 .sec2__carroussel2 .card__white {
+  color: #000;
+}
+.main .main__sec2 .sec2__carroussel2 .carroussel2__div {
+  margin: 1rem 0;
+  min-width: 18rem;
+  height: 30rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.082);
+}
+.main .main__sec2 .sec2__carroussel2 .carroussel2__div p:nth-child(1) {
+  font-size: 0.8rem;
+  padding-bottom: 1rem;
+}
+.main .main__sec2 .sec2__carroussel2 .carroussel2__div p:nth-child(2) {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.main .main__sec2 .sec2__carroussel2 .carroussel2__div p:nth-child(3) {
+  font-size: 1.2rem;
+}
+.main .main__sec2 .sec2__carroussel2 .carroussel2__div:nth-child(1) {
+  background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1692910040844");
+}
+.main .main__sec2 .sec2__carroussel2 .carroussel2__div:nth-child(2) {
+  background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-watch-s9-202309_GEO_BR?wid=400&hei=500&fmt=jpeg&qlt=95&.v=1693501298681");
+}
+.main .main__sec2 .sec2__carroussel2 .carroussel2__div:nth-child(3) {
+  background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-macbook-pro-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1696964122967");
+}
+.main .main__sec2 .sec2__carroussel2 .carroussel2__div:nth-child(4) {
+  background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-bts-202306_GEO_BR?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1701212019653");
+}
+.main .main__sec2 .sec2__carroussel2 .carroussel2__div:nth-child(5) {
+  background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-ipad-202310_GEO_BR?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1696875323691");
+}
+.main .main__sec2 .sec2__carroussel2 .carroussel2__div:nth-child(6) {
+  background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-iphone-15-202309?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1692719973220");
+}
+.main .main__sec2 .sec2__carroussel2 .carroussel2__div:nth-child(7) {
+  background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-watch-ultra-202309_GEO_BR?wid=400&hei=500&fmt=jpeg&qlt=95&.v=1693354003258");
+}
+.main .main__sec2 .sec2__carroussel2 .carroussel2__div:nth-child(8) {
+  background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-macbook-air-202306?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1683844828182");
+}
+.main .main__sec2 .sec2__carroussel2 .carroussel2__div:nth-child(9) {
+  background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-ipad-pro-202210_GEO_BR?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1667506326069");
+}
+.main .main__sec2 .sec2__carroussel2 .carroussel2__div:nth-child(10) {
+  background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-watch-se-202303_GEO_BR?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1677306369742");
+}
+.main .main__sec2 .sec2__carroussel2 .btn__navigation-carr2 {
+  position: absolute;
+  align-self: center;
+  border: none;
+  background-color: rgba(110, 110, 115, 0.5137254902);
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {
@@ -232,6 +324,10 @@ body {
   }
   .main .main__sec1 .sec1__support .support .infos p, .main .main__sec1 .sec1__support .support .infos a {
     font-size: 0.7rem;
+  }
+  .main .main__sec2 .sec2__carroussel2 .carroussel2__div {
+    min-width: 22rem;
+    height: 27rem;
   }
 }
 @media (min-width: 1024px) {

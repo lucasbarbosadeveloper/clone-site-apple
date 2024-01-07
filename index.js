@@ -69,3 +69,17 @@ btn__back3.addEventListener('click', (ev) => {
 btn__after3.addEventListener('click', (ev) => {
     sec3__carroussel3.scrollBy(280, 0)  
 })
+
+// navegação do carroussel 4
+const sec4__carroussel4 = document.querySelector('.sec4__carroussel4')
+const btn__back4 = document.querySelector('.btn__back4')
+const btn__after4 = document.querySelector('.btn__after4')
+
+
+btn__back4.addEventListener('click', (ev) => {
+    sec4__carroussel4.scrollBy(-280,0)
+})
+
+btn__after4.addEventListener('click', (ev) => {
+    sec4__carroussel4.scrollBy(280, 0)  
+})
